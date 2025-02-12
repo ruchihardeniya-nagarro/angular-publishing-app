@@ -1,0 +1,33 @@
+<div class="article-details">
+    <div>
+
+        <p class="article-header">{{ article.title }}</p>
+        <img class="article-image" [src]="article.thumbnail" alt="Thumbnail">
+        <p class="article-detail">
+            <mat-icon class="icon-desing">visibility </mat-icon>{{article?.views}}
+            <!-- <mat-icon *ngIf="article?.comment.length"class="icon-desing">comment</mat-icon>{{article?.comment}} -->
+        </p>
+        <p><strong>By:</strong> {{ article.author }} | <strong>Published on:</strong> {{ article.publishDate | date }}
+        </p>
+        <div class="article-content">
+            <p>{{ article.content }}</p>
+        </div>
+
+        <div class="author-bio">
+            <p>About the Author</p>
+            <p>{{ article.authorBio }}</p>
+        </div>
+    <button mat-raised-button (click)="openDialog()"> Make And View Comment</button>
+        <div class="related-articles">
+            <h3>Related Articles</h3>
+            <mat-grid-list cols="2" rowHeight="2:1">
+                <mat-grid-tile *ngFor="let relatedArticle of relatedArticles">
+                    <div>
+                        <img [src]="relatedArticle.thumbnail" alt="Thumbnail">
+                        <p class="article-header">{{ relatedArticle.title }}</p>
+                    </div>
+                </mat-grid-tile>
+            </mat-grid-list>
+        </div>
+    </div>
+</div>

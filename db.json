@@ -1,0 +1,122 @@
+{
+  "articles": [
+    {
+      "id": "1",
+      "title": "How to turn off Apple Intelligence on all your Apple devices",
+      "thumbnail": "https://www.popsci.com/wp-content/uploads/2025/02/how-to-turn-off-apple-intelligence.jpg",
+      "description": "AI isn't for everyone—and you don't have to use it.",
+      "author": "David Nield",
+      "publishDate": "Feb 7, 2025",
+      "featured": true,
+      "views": 2000,
+      "content": "With the latest versions of its software—specifically iOS 18.3, iPadOS 18.3, and macOS Sequoia 15.3—Apple has now turned on Apple Intelligence by default. That means all of the associated AI tools will be ready and waiting to help you as soon as you’ve installed the updates and restarted your device.",
+      "comments": [
+        {
+          "id": 1,
+          "userId": "1",
+          "content": "hii",
+          "timestamp": "2025-02-05T09:57:38.229Z",
+          "reply": []
+        },
+        {
+          "id": 2,
+          "userId": "0TuU0QesmAToueYPnQ3lm1wXI6f2",
+          "content": "Hiii",
+          "timestamp": "2025-02-12T13:12:32.769Z"
+        },
+        {
+          "id": 3,
+          "userId": "0TuU0QesmAToueYPnQ3lm1wXI6f2",
+          "content": "this is a good article",
+          "timestamp": "2025-02-12T13:12:50.597Z"
+        },
+        {
+          "id": 4,
+          "userId": "0TuU0QesmAToueYPnQ3lm1wXI6f2",
+          "content": "good article",
+          "timestamp": "2025-02-12T13:14:12.764Z"
+        },
+        {
+          "id": 5,
+          "userId": "0TuU0QesmAToueYPnQ3lm1wXI6f2",
+          "content": "very knowledge ",
+          "displayName": "Ruchi Sharma",
+          "timestamp": "2025-02-12T13:37:16.628Z"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Understanding TypeScript Basics",
+      "thumbnail": "assets/typescript-thumbnail.jpg",
+      "description": "An introduction to the basics of TypeScript for JavaScript developers.",
+      "author": "Mark Smith",
+      "publishDate": "2025-01-25",
+      "featured": false,
+      "views": 900
+    },
+    {
+      "id": "3",
+      "title": "Understanding Java Basics",
+      "thumbnail": "assets/typescript-thumbnail.jpg",
+      "description": "An introduction to the basics of Java for BackEnd developers.",
+      "author": "Smith Lane",
+      "publishDate": "2025-01-25",
+      "featured": false,
+      "views": 800
+    },
+    {
+      "id": "4",
+      "title": "New In Node Js",
+      "thumbnail": "assets/typescript-thumbnail.jpg",
+      "description": "New featured introduced in node BackEnd developers.",
+      "author": "Maxwell",
+      "publishDate": "2025-01-25",
+      "featured": false,
+      "views": 200
+    },
+    {
+      "id": "5",
+      "title": "New In Node Js",
+      "thumbnail": "assets/typescript-thumbnail.jpg",
+      "description": "New featured introduced in node BackEnd developers.",
+      "author": "Smith",
+      "publishDate": "2025-01-25",
+      "featured": false,
+      "views": 300
+    },
+    {
+      "id": "6",
+      "title": "New In Node Js",
+      "thumbnail": "assets/typescript-thumbnail.jpg",
+      "description": "New featured introduced in node BackEnd developers.",
+      "author": "Lane Smith",
+      "publishDate": "2025-01-25",
+      "featured": false,
+      "views": 900
+    },
+    {
+      "id": "7",
+      "title": "A Timeline of Sam Altman’s Firing from OpenAI – and the Fallout",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEjnbHyzyE-9IXF-7qgrhL4N7eFDmfbeE4jw&s",
+      "description": "Sam Altman, the CEO of ChatGPT creator OpenAI, was abruptly fired from his job.",
+      "author": "Kyle Wiggers",
+      "publishDate": "November 29",
+      "featured": false,
+      "views": 1500,
+      "category": "Tech Crunch",
+      "content": "Sam Altman, the CEO of ChatGPT creator OpenAI, was abruptly fired from his job. It kicked off a frenzied weekend in the tech community as observers tried to piece together what happened at what Altman’s ouster might mean for the future of the company. By the end of the weekend, the company announced plans for Altman’s return, along with a slate of new board members. The drama opened up a broader discussion about how to manage the opportunities and risks posted by AI as startups and tech giants alike race to commercialize it."
+    },
+    {
+      "id": "7806",
+      "title": "New version of angular",
+      "content": "<p>Angualr&nbsp;19&nbsp;have&nbsp;soem&nbsp;</p>",
+      "status": "published",
+      "scheduledDate": null,
+      "comment": [],
+      "author": "Ruchi Sharma",
+      "publishDate": "Wed Feb 12 2025 21:01:33 GMT+0530 (India Standard Time)",
+      "views": "0"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+mat-dialog-container {
+    position: fixed !important;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 400px;
+    max-width: 100%;
+    z-index: 1000;
+    /* Ensure the dialog sits on top */
+}
+
+.comment-section {
+    margin: 20px;
+}
+
+.comment-card {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+mat-card-header {
+    display: flex;
+    align-items: center;
+}
+
+mat-card-avatar img {
+    width: 40px;
+    height: 40px;
+}
+
+mat-card-title {
+    margin-left: 10px;
+}
+
+.comment-input {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+button {
+    margin-right: 10px;
+}

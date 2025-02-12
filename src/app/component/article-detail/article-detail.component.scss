@@ -1,0 +1,32 @@
+.article-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    align-items: center;
+
+
+    .article-image {
+        width: 600px;
+    }
+
+    .article-header {
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .article-content {
+        width: 600px;
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .icon-desing {
+        padding: 0px 20px;
+        height: 20px;
+    }
+}
+
+mat-grid-tile {
+    background: lightblue;
+}

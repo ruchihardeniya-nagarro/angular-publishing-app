@@ -1,0 +1,40 @@
+<h2 mat-dialog-title>Leave a Comment</h2>
+<div mat-dialog-content>
+    <mat-form-field appearance="fill" style="width: 100%;">
+        <mat-label>Comment</mat-label>
+        <input matInput [(ngModel)]="commentText" placeholder="Type your comment here">
+    </mat-form-field>
+</div>
+<div mat-dialog-actions>
+    <button mat-button (click)="onClose()">Close</button>
+    <button mat-button (click)="onSubmit()" cdkFocusInitial>Submit</button>
+</div>
+
+<div *ngIf="articleComments.length>0">
+
+    <div class="comment-section">
+        <div *ngFor="let comment of articleComments">
+            <mat-card class="comment-card">
+                <mat-card-header>
+                    <mat-card-title>{{ comment?.displayName }}</mat-card-title>
+                </mat-card-header>
+                <mat-card-content>
+                    <p>{{ comment.content }}</p>
+                </mat-card-content>
+                <mat-card-actions>
+                    <button mat-icon-button (click)="onLike(comment)">
+                        <mat-icon>thumb_up</mat-icon>
+                        <span>{{ comment.likes }} </span>
+                    </button>
+                    <button mat-icon-button (click)="onReply(comment)">
+                        <mat-icon>reply</mat-icon>
+                        <span>{{ comment.replies }} </span>
+                    </button>
+                </mat-card-actions>
+            </mat-card>
+        </div>
+
+       
+    </div>
+
+</div>

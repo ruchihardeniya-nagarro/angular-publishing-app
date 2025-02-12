@@ -1,0 +1,46 @@
+<div class="featured-articles">
+    <div class="search-bar">
+        <input [(ngModel)]="authorSearch" (input)="searchArticlesByAuthor()" placeholder="Search articles by Author...">
+        <button mat-button (click)="clearSearch()">Clear Search</button>
+    </div>
+    <h2>Featured Articles</h2>
+    <div *ngFor="let article of featuredArticles">
+        <div class="main-article-container">
+            <img [src]="article.thumbnail"class="feature-img" alt="Thumbnail">
+            <h3>{{ article.title }}</h3>
+            <p>{{ article.description }}</p>
+            <p class="article-detail">
+                <strong>{{ article.author }}</strong>
+                | {{ article.publishDate }}
+                <mat-icon class="icon-desing">visibility </mat-icon>{{article?.views}}
+                <mat-icon class="icon-desing">comment</mat-icon>{{article?.comment}}
+                <button mat-button (click)="viewDetailClicked(article?.id)">View Detail</button>
+
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="article-list">
+    <h2>Articles</h2>
+    <div *ngFor="let article of articles" class="article-item">
+        <img [src]="article.thumbnail" alt="Thumbnail">
+        <div>
+            <h3>{{ article.title }}</h3>
+            <p>{{ article.description }}</p>
+            <p class="article-detail">
+                <strong>{{ article.author }}</strong>
+                | {{ article.publishDate }}
+                <mat-icon class="icon-desing">visibility </mat-icon>{{article?.views}}
+                <mat-icon class="icon-desing">comment</mat-icon>{{article?.comment}}
+                <button mat-button (click)="viewDetailClicked(article?.id)">View Detail</button>
+            </p>
+        </div>
+
+    </div>
+    <div class="pagination">
+        <button (click)="changePage(currentPage - 1)" [disabled]="currentPage <= 1">Previous</button>
+        <span>{{ currentPage }} / {{ totalPages }}</span>
+        <button (click)="changePage(currentPage + 1)" [disabled]="currentPage >= totalPages">Next</button>
+    </div>
+</div>
