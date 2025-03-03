@@ -5,6 +5,8 @@ import { RegisterComponent } from './component/register/register.component';
 import { DashboardComponent } from './component/dashboard/dashboard.component';
 import { ArticleDetailComponent } from './component/article-detail/article-detail.component';
 import { CreatePostComponent } from './component/create-post/create-post.component';
+import { AuthGuard } from './guard/auth.guard';
+import { AuthorDashboardComponent } from './component/author-dashboard/author-dashboard.component';
 
 const routes: Routes = [
   { path: '', component: DashboardComponent },
@@ -12,7 +14,17 @@ const routes: Routes = [
   { path: 'register', component: RegisterComponent },
   { path: 'dashboard', component: DashboardComponent },
   { path: 'article-detail/:id', component: ArticleDetailComponent },
-  { path:'create-path',component:CreatePostComponent}
+  {
+    path: 'create-post',
+    component: CreatePostComponent, 
+    canActivate: [AuthGuard] // Only accessible if the guard passes
+  },
+  {
+    path: "author-directory",
+    component: AuthorDashboardComponent,
+    canActivate: [AuthGuard] // Only accessible if the guard passes
+  }
+
 ];
 
 @NgModule({

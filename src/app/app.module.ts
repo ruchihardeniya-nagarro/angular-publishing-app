@@ -21,7 +21,8 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { ArticleDetailComponent } from './component/article-detail/article-detail.component';
 import { DialogComponent } from './component/dialog/dialog.component';
 import { CreatePostComponent } from './component/create-post/create-post.component';
-import { QuillModule } from 'ngx-quill';  // Quill editor module
+import { QuillModule } from 'ngx-quill';
+import { AuthorDashboardComponent } from './component/author-dashboard/author-dashboard.component';  // Quill editor module
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { QuillModule } from 'ngx-quill';  // Quill editor module
     NavigationComponent,
     ArticleDetailComponent,
     DialogComponent,
-    CreatePostComponent
+    CreatePostComponent,
+    AuthorDashboardComponent
   ],
   imports: [
     BrowserModule,

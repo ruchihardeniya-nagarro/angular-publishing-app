@@ -9,6 +9,7 @@
       "publishDate": "Feb 7, 2025",
       "featured": true,
       "views": 2000,
+      "category": "knowledge",
       "content": "With the latest versions of its software—specifically iOS 18.3, iPadOS 18.3, and macOS Sequoia 15.3—Apple has now turned on Apple Intelligence by default. That means all of the associated AI tools will be ready and waiting to help you as soon as you’ve installed the updates and restarted your device.",
       "comments": [
         {
@@ -42,58 +43,48 @@
           "content": "very knowledge ",
           "displayName": "Ruchi Sharma",
           "timestamp": "2025-02-12T13:37:16.628Z"
+        },
+        {
+          "id": 6,
+          "userId": "0TuU0QesmAToueYPnQ3lm1wXI6f2",
+          "content": "good work",
+          "displayName": "Ruchi Sharma",
+          "timestamp": "2025-02-13T06:08:44.808Z"
         }
       ]
     },
     {
       "id": "2",
       "title": "Understanding TypeScript Basics",
-      "thumbnail": "assets/typescript-thumbnail.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/ahCwqrYpIuM/maxresdefault.jpg",
       "description": "An introduction to the basics of TypeScript for JavaScript developers.",
       "author": "Mark Smith",
       "publishDate": "2025-01-25",
       "featured": false,
-      "views": 900
+      "views": 900,
+      "category": "knowledge"
     },
     {
       "id": "3",
       "title": "Understanding Java Basics",
-      "thumbnail": "assets/typescript-thumbnail.jpg",
+      "thumbnail": "https://artoftesting.com/wp-content/uploads/2020/03/Basics-of-Java-programming.jpg",
       "description": "An introduction to the basics of Java for BackEnd developers.",
       "author": "Smith Lane",
       "publishDate": "2025-01-25",
       "featured": false,
-      "views": 800
+      "views": 800,
+      "category": "Tech Crunch"
     },
     {
       "id": "4",
       "title": "New In Node Js",
-      "thumbnail": "assets/typescript-thumbnail.jpg",
+      "thumbnail": "https://www.syncfusion.com/blogs/wp-content/uploads/2024/09/Whats-New-in-Node.js-22.jpg",
       "description": "New featured introduced in node BackEnd developers.",
       "author": "Maxwell",
       "publishDate": "2025-01-25",
       "featured": false,
-      "views": 200
-    },
-    {
-      "id": "5",
-      "title": "New In Node Js",
-      "thumbnail": "assets/typescript-thumbnail.jpg",
-      "description": "New featured introduced in node BackEnd developers.",
-      "author": "Smith",
-      "publishDate": "2025-01-25",
-      "featured": false,
-      "views": 300
-    },
-    {
-      "id": "6",
-      "title": "New In Node Js",
-      "thumbnail": "assets/typescript-thumbnail.jpg",
-      "description": "New featured introduced in node BackEnd developers.",
-      "author": "Lane Smith",
-      "publishDate": "2025-01-25",
-      "featured": false,
-      "views": 900
+      "views": 200,
+      "category": "Tech Crunch"
     },
     {
       "id": "7",
@@ -116,7 +107,40 @@
       "comment": [],
       "author": "Ruchi Sharma",
       "publishDate": "Wed Feb 12 2025 21:01:33 GMT+0530 (India Standard Time)",
+      "views": "0",
+      "thumbnail": "https://wp.angular.love/wp-content/uploads/2024/11/Okladki-blog-22.png"
+    },
+    {
+      "id": "9e5c",
+      "title": "New Feature in Angular",
+      "content": "<p>Hi&nbsp;this&nbsp;is&nbsp;a&nbsp;aritcle&nbsp;related&nbsp;to&nbsp;new&nbsp;feature</p>",
+      "status": "published",
+      "scheduledDate": null,
+      "comment": [],
+      "author": "Ruchi Sharma",
+      "publishDate": "Mon Mar 03 2025 10:57:23 GMT+0530 (India Standard Time)",
       "views": "0"
+    }
+  ],
+  "authors": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "bio": "John is a software developer with a passion for teaching Angular.",
+      "profilePicture": "https://rksdtaxclasses.in/wp-content/uploads/2021/02/team-1.jpg",
+      "articles": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "bio": "Jane is a front-end developer with a focus on UI/UX design.",
+      "profilePicture": "https://jam-aveyron.fr/wp-content/uploads/2017/05/speaker-1.jpg",
+      "articles": [
+        3
+      ]
     }
   ]
 }

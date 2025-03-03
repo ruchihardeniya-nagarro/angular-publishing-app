@@ -70,7 +70,9 @@ export class DashboardComponent implements OnInit {
 
   clearSearch() { 
     this.loadArticles();
-    
+    this.loadFeaturedArticles();
+    this.loadArticles();
+    this.authorSearch=''
   }
 
   changePage(page: number): void {

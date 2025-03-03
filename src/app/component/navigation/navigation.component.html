@@ -1,9 +1,10 @@
 <div class="naviagtion-header">
     <div><a routerLink="/" routerLinkActive="active" ariaCurrentWhenActive="page">Publishing Platform</a></div>
     <div class="naviagtion-header">
-        <!-- <div *ngIf="isLoggedIn()"><a routerLink="/create-post" routerLinkActive="active" ariaCurrentWhenActive="page">Create Post</a></div> -->
+        <div *ngIf="isLoggedIn()"><button mat-button (click)="createPost()">Create Post</button> </div>
+        <button mat-button (click)="authorPage()">Go TO Author Page</button>
         <button mat-icon-button >
-        <mat-icon>logout</mat-icon>
+        <mat-icon (click)="logout()">logout</mat-icon>
       </button>
     </div>
 

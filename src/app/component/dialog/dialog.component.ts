@@ -46,6 +46,7 @@ export class DialogComponent implements OnInit{
       this.articleService.addComment(this.data.articleId, user.uid, user.displayName,comment).subscribe({
         next: () => {
           this.commentText = '';
+          this.getArticleDetail();
           alert("Comment Added Successfully!")
         },
         error: (err) => {

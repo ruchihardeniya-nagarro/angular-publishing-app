@@ -22,10 +22,10 @@
             <h3>Related Articles</h3>
             <mat-grid-list cols="2" rowHeight="2:1">
                 <mat-grid-tile *ngFor="let relatedArticle of relatedArticles">
-                    <div>
-                        <img [src]="relatedArticle.thumbnail" alt="Thumbnail">
-                        <p class="article-header">{{ relatedArticle.title }}</p>
-                    </div>
+                    <button (click)="gotodetail(relatedArticle.id)">
+                        <img class="subarticle-img" [src]="relatedArticle.thumbnail" alt="Thumbnail">
+                        <p class="subarticle-header">{{ relatedArticle.title }}</p>
+                    </button>
                 </mat-grid-tile>
             </mat-grid-list>
         </div>

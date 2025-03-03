@@ -1,0 +1,25 @@
+<h2>Author Directory</h2>
+
+<!-- Search bar -->
+<div>
+  <input [(ngModel)]="searchQuery" placeholder="Search authors by name" />
+  <button (click)="searchAuthors()">Search</button>
+</div>
+
+<!-- Author list -->
+<div *ngIf="authors.length > 0; else noAuthors">
+  <div *ngFor="let author of authors">
+    <div class="author-card">
+      <img [src]="author.profilePicture" alt="Profile Picture" />
+      <div class="author-info">
+        <h3>{{ author.name }}</h3>
+        <p>{{ author.bio }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- No authors message -->
+<ng-template #noAuthors>
+  <p>No authors found.</p>
+</ng-template>

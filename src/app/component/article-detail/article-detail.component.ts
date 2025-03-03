@@ -88,4 +88,9 @@ export class ArticleDetailComponent implements OnInit {
     });
 
   }
+
+  gotodetail(id:number) {
+    this.router.navigate(['/article-detail', id]);
+    this.getArticleDetail()
+   }
 }
